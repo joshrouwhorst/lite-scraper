@@ -1,0 +1,15 @@
+{
+    "name": "scraper",
+    "version": "0.1.0",
+    "dependencies": {
+        "casperjs": "^1.1.4",
+        "chalk": "^2.4.1",
+        "commander": "^2.19.0",
+        "jquery": "^3.3.1",
+        "phantom": "^6.0.3",
+        "qbp": "^1.1.12",
+        "slimerjs": "^1.0.0",
+        "webpage": "^0.3.0",
+        "winston": "^3.1.0"
+    }
+}
