@@ -1,15 +1,34 @@
 {
-    "name": "scraper",
+    "name": "lite-scraper",
     "version": "0.1.0",
+    "main": "scraper.js",
+    "types": "scraper.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joshrouwhorst/lite-scraper.git"
+    },
+    "keywords": [
+        "scraper",
+        "web",
+        "phantom",
+        "phantomjs",
+        "qbp",
+        "download",
+        "analysis"
+    ],
+    "author": "Josh Rouwhorst (http://joshrouwhorst.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joshrouwhorst/lite-scraper/issues"
+    },
+    "homepage": "https://github.com/joshrouwhorst/lite-scraper",
     "dependencies": {
-        "casperjs": "^1.1.4",
-        "chalk": "^2.4.1",
         "commander": "^2.19.0",
-        "jquery": "^3.3.1",
         "phantom": "^6.0.3",
         "qbp": "^1.1.12",
-        "slimerjs": "^1.0.0",
-        "webpage": "^0.3.0",
         "winston": "^3.1.0"
     }
 }
